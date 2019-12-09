@@ -1,0 +1,61 @@
+/*Fonts and Sizes
+
+h1:
+Volkhov, TT, Bold, 45px
+
+h2:
+Sudbury Book, Tt, 36px
+
+p:
+Sudbury Book (tt) 18px
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+position: relative;
+}
+
+body {
+background-image: url("assets/title-slide-bg-mobile.png");
+}
+
+header {
+position: relative;
+display:flex;
+justify-content: space-between;
+margin: 0 5% 0 5%;
+}
+
+#home,
+#spotify {
+width: 15px;
+}
+
+.next {
+background-color: fff;
+height: 35px;
+width: 35px;
+position: absolute;
+right: 1rem;
+bottom: -12rem;
+}
+
+h1 {
+margin: 5% 18% 0% 5%;
+font-family: Ultra;
+color:#EDDCC4;
+font-size: 46px;
+}
+
+p {
+position: absolute;
+right: 2rem;
+top: 43rem;
+font-family: Sudbury Book;
+font-weight: bold;
+color: #EDDCC4;
+}

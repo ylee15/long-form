@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+position: relative;
+}
+
+body {
+background-color: #EDDCC4;
+background-position: 35%;
+}
+
+header {
+position: relative;
+display:flex;
+justify-content: space-between;
+margin: 0 5% 0 5%;
+}
+
+#home,
+#spotify {
+width: 15px;
+}
+
+.next {
+background-color: fff;
+height: 35px;
+width: 35px;
+position: absolute;
+right: 1rem;
+bottom: -30.5rem;
+}
+
+.back {
+background-color: fff;
+height: 35px;
+width: 35px;
+position: absolute;
+left: 1rem;
+bottom: -30.5rem;
+}
+
+.top {
+position: relative;
+top: 0%;
+left: 5%;
+z-index: 1;
+height: 16rem;
+width: 20rem;
+background-image: url("assets/5-slide-rochester.jpeg");
+background-size: contain;
+}
+
+.middle {
+position: absolute;
+top: 60%;
+right: -10%;
+z-index: 2;
+height: 16rem;
+width: 19rem;
+background-image: url("assets/5-slide-artschool.jpg");
+background-size: contain;
+}
+
+.bottom {
+position: absolute;
+top: 130%;
+left: 5%;
+z-index: 1;
+height: 18rem;
+width: 13.5rem;
+background-image: url("assets/5-slide-usarmy.jpg");
+background-size: contain;
+}
+
+.text {
+position: absolute;
+top: 210%;
+z-index: 4;
+margin: 0% 2% 0% 2%;
+font-family: Sudbury Book;
+font-size: 16px;
+line-height: 20px;
+background-color: 000;
+color: fff;
+}

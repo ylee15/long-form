@@ -1,0 +1,73 @@
+/*Fonts and Sizes
+
+h1:
+Volkhov, TT, Bold, 45px
+
+h2:
+Sudbury Book, Tt, 36px
+
+p:
+Sudbury Book (tt) 18px
+*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+position: relative;
+}
+
+body {
+background-image: url("assets/4-slide-bg.png");
+background-position: center;
+}
+
+header {
+position: relative;
+display:flex;
+justify-content: space-between;
+margin: 0 5% 0 5%;
+}
+
+#home,
+#spotify {
+width: 15px;
+}
+
+.next {
+background-color: fff;
+height: 35px;
+width: 35px;
+position: absolute;
+right: 1rem;
+bottom: .35rem;
+}
+
+.back {
+background-color: fff;
+height: 35px;
+width: 35px;
+position: absolute;
+left: 1rem;
+bottom: .35rem;
+}
+
+.center {
+width: 18rem;
+height: 18rem;
+background-image: url("assets/4-slide-chair.png");
+background-size: contain;
+margin: 10rem auto;
+}
+
+.text {
+position: relative;
+top: -10rem;
+margin: 0% 2% 0% 2%;
+font-family: Sudbury Book;
+font-size: 16px;
+line-height: 20px;
+background-color: 000;
+color: fff;
+}
