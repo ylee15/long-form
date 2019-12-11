@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+position: relative;
+text-align: center;
+}
+
+body {
+background-color: #EDDCC4;
+}
+
+header {
+position: relative;
+display:flex;
+justify-content: space-between;
+margin: 0 5% 0 5%;
+}
+
+#home,
+#spotify {
+width: 15px;
+}
+
+.next {
+background-color: fff;
+height: 35px;
+width: 35px;
+position: absolute;
+right: 1rem;
+bottom: -23rem;
+}
+
+.back {
+background-color: fff;
+height: 35px;
+width: 35px;
+position: absolute;
+left: 1rem;
+bottom: -23rem;
+}
+
+img {
+margin-top: 50%;
+width: 22rem;
+height: 14rem;
+}
+
+h1 {
+margin: -13rem 0 0 1.5rem;
+text-align: left;
+font-family: Ultra;
+font-size: 30px;
+color: #EDDCC4;
+width: 10rem;
+}
