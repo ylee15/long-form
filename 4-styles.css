@@ -14,11 +14,8 @@ Sudbury Book (tt) 18px
     padding: 0px;
 }
 
-.container {
+.sect4 {
 position: relative;
-}
-
-body {
 background-image: url("assets/4-slide-bg.png");
 background-position: center;
 }
@@ -53,7 +50,7 @@ left: 1rem;
 bottom: .35rem;
 }
 
-.center {
+.sect4 .center {
 width: 18rem;
 height: 18rem;
 background-image: url("assets/4-slide-chair.png");
@@ -61,7 +58,7 @@ background-size: contain;
 margin: 10rem auto;
 }
 
-.text {
+.sect4 .text {
 position: relative;
 top: -10rem;
 margin: 0% 2% 0% 2%;

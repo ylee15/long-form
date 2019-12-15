@@ -3,11 +3,8 @@
     padding: 0px;
 }
 
-.container {
+.sect5 {
 position: relative;
-}
-
-body {
 background-color: #EDDCC4;
 background-position: 35%;
 }
@@ -42,7 +39,7 @@ left: 1rem;
 bottom: -30.3rem;
 }
 
-.top {
+.sect5 .top {
 position: relative;
 top: 0%;
 left: 5%;
@@ -53,7 +50,7 @@ background-image: url("assets/5-slide-rochester.jpeg");
 background-size: contain;
 }
 
-.middle {
+.sect5 .middle {
 position: absolute;
 top: 60%;
 right: -10%;
@@ -64,7 +61,7 @@ background-image: url("assets/5-slide-artschool.jpg");
 background-size: contain;
 }
 
-.bottom {
+.sect5 .bottom {
 position: absolute;
 top: 130%;
 left: 5%;
@@ -75,7 +72,7 @@ background-image: url("assets/5-slide-usarmy.jpg");
 background-size: contain;
 }
 
-.text {
+.sect5 .text {
 position: absolute;
 top: 210%;
 z-index: 4;
