@@ -1,9 +1,9 @@
 $(document).ready(function() {
   //ID or Class name of the button goes into the first section
-  $('#home-next').click(function() {
+  $('#title-next').click(function() {
     //ID or Class name of the modal you want to appear on click goes into this second area.
     $(".sect-1").addClass("visible");
-    $(".home").removeClass("visible");
+    $(".title").removeClass("visible");
   });
   $('#sect1-next').click(function() {
     //ID or Class name of the modal you want to appear on click goes into this second area.
@@ -14,7 +14,7 @@ $(document).ready(function() {
   $('#sect1-back').click(function() {
     //ID or Class name of the modal you want to appear on click goes into this second area.
     $(".sect-1").removeClass("visible");
-    $(".home").addClass("visible");
+    $(".title").addClass("visible");
   });
   $('#sect2-back').click(function() {
     //ID or Class name of the modal you want to appear on click goes into this second area.
