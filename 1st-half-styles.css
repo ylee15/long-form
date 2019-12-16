@@ -2,7 +2,6 @@
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	background-color: #000000;
 	position: absolute;
 }
 
@@ -13,6 +12,7 @@ section {
   top:0;
   left:0;
   visibility:hidden;
+	background-color: #EDDCC4;
 }
 
 section.visible {
@@ -24,6 +24,16 @@ button {
 	color: #fff;
 }
 
+.text {
+margin: 0% 2% 0% 2%;
+padding: 3% 3% 3% 3%;
+font-family: Sudbury Book;
+font-size: 16px;
+line-height: 20px;
+background-color: #000000;
+color: #fff;
+text-align: left;
+}
 
 .title {
 	background-image: url("assets/title-slide-bg-mobile.png");
@@ -219,15 +229,9 @@ margin: 10rem auto;
 .sect-4 .text {
 position: relative;
 top: -10rem;
-margin: 0% 2% 0% 2%;
-font-family: Sudbury Book;
-font-size: 16px;
-line-height: 20px;
-background-color: 000;
-color: fff;
 }
 
-.sect5 .top {
+.sect-5 .top {
 position: relative;
 top: 0%;
 left: 5%;
@@ -238,9 +242,9 @@ background-image: url("assets/5-slide-rochester.jpeg");
 background-size: contain;
 }
 
-.sect5 .middle {
+.sect-5 .middle {
 position: absolute;
-top: 60%;
+top: 20%;
 right: -10%;
 z-index: 2;
 height: 16rem;
@@ -249,9 +253,9 @@ background-image: url("assets/5-slide-artschool.jpg");
 background-size: contain;
 }
 
-.sect5 .bottom {
+.sect-5 .bottom {
 position: absolute;
-top: 130%;
+top: 40%;
 left: 5%;
 z-index: 1;
 height: 18rem;
@@ -260,14 +264,96 @@ background-image: url("assets/5-slide-usarmy.jpg");
 background-size: contain;
 }
 
-.sect5 .text {
+.sect-5 .text {
 position: absolute;
-top: 210%;
-z-index: 4;
+top:60%;
+z-index: 10;
 margin: 0% 2% 0% 2%;
-font-family: Sudbury Book;
-font-size: 16px;
-line-height: 20px;
-background-color: 000;
-color: fff;
+}
+
+.sect-6 img {
+margin-top: 50%;
+width: 22rem;
+height: 14rem;
+}
+
+.sect-6 h1 {
+margin: -13rem 0 0 1.5rem;
+text-align: left;
+font-family: Ultra;
+font-size: 30px;
+color: #EDDCC4;
+width: 10rem;
+}
+
+.sect-7 {
+background-image: url("assets/7-slide-manhattan.jpg");
+}
+
+.sect-7 .text, .sect-9 .text, .sect-12 .text,.sect-16 .text {
+position: relative;
+top: 20%;
+}
+
+.sect-8 {
+background-image: url("assets/8-slide-recording .png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.sect-9, .sect-12, .sect-15, .sect-17 {
+background-color: #000;
+}
+
+.sect-10 .text, {
+position: relative;
+top: 10%;
+}
+
+.sect-10 iframe {
+width: 100vw;
+}
+
+.sect-11 img {
+margin-top: 50%;
+width: 22rem;
+height: 14rem;
+}
+
+.sect-11 h1 {
+margin: -13rem 0 0 1.5rem;
+text-align: left;
+font-family: Ultra;
+font-size: 30px;
+color: #EDDCC4;
+width: 10rem;
+}
+
+.sect-13 {
+background-image: url("assets/13-slide-bottle.jpg");
+background-size: cover;
+}
+
+.sect-13 .center {
+width: 18rem;
+height: 18rem;
+background-image: url("assets/13-slide-center.png");
+background-size: contain;
+margin: 10rem auto;
+}
+
+.sect-13 .text {
+position: relative;
+top: -10rem;
+}
+
+.sect-15 .text {
+position: relative;
+top: 5%;
+}
+
+.sect-16 {
+background-image: url("assets/16-slide-environments.png");
+background-size: contain;
 }
