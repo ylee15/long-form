@@ -387,7 +387,7 @@ background-color: #000;
 
 .sect-10 .text, .sect-14 .text, .sect-19 .text {
 position: relative;
-top: 20%;
+top: 30%;
 z-index: 1000;
 }
 
@@ -398,6 +398,13 @@ bottom: 0;
 min-width: 100%;
 min-height: 100%;
 z-index: 1;
+}
+
+.sect-10 iframe, .sect-19 iframe, .sect-14 iframe {
+position: absolute;
+z-index: 1000;
+width: 100vw;
+height: 80px;
 }
 
 .sect-12 .text {
@@ -430,9 +437,21 @@ position: relative;
 top: -10rem;
 }
 
-.sect-17 .text, .sect-20 .text, .sect-22 .text  {
+.sect-20 .text, .sect-22 .text  {
 position: relative;
 top: 20%;
+}
+
+.sect-17 .text {
+margin-top: 0;
+}
+
+.sect-17 iframe {
+margin-top: 5%;
+}
+
+.sect-17 {
+text-align: center;
 }
 
 .sect-18 .text {
