@@ -20,28 +20,56 @@ section.visible {
 }
 
 button {
-	background-color: #0003ff;
-	color: #fff;
+background-color: transparent;
+border-color: transparent;
 }
 
-#title-next, #sect1-next, #sect2-next, #sect3-next, #sect4-next, #sect5-next, #sect6-next, #sect7-next, #sect8-next, #sect9-next,
-#sect10-next, #sect11-next, #sect12-next, #sect13-next, #sect14-next, #sect15-next, #sect16-next, #sect17-next, #sect18-next,
-#sect19-next, #sect20-next, #sect21-next, #sect22-next {
-background-color: #fff;
-height: 35px;
-width: 35px;
+#sect3-next, #sect5-next, #sect6-next,
+#sect10-next, #sect11-next, #sect13-next, #sect16-next {
+background-image: url("assets/right_arrow_black.png");
+background-size: contain;
+background-repeat:no-repeat;
+height: 3rem;
+width: 3rem;
 position: absolute;
 right: 1rem;
 bottom: .35rem;
 z-index: 10000;
 }
 
-#sect1-back, #sect2-back, #sect3-back, #sect4-back, #sect5-back, #sect6-back, #sect7-back, #sect8-back, #sect9-back,
-#sect10-back, #sect11-back, #sect12-back, #sect13-back, #sect14-back, #sect15-back, #sect16-back, #sect17-back, #sect18-back,
-#sect19-back, #sect20-back, #sect21-back, #sect22-back {
-background-color: #fff;
-height: 35px;
-width: 35px;
+#title-next, #sect1-next, #sect2-next, #sect4-next, #sect7-next, #sect8-next, #sect9-next, #sect12-next, #sect14-next, #sect15-next,
+#sect17-next, #sect18-next, #sect19-next, #sect20-next, #sect22-next, #sect21-next, #sect5-1-next  {
+background-image: url("assets/right_arrow.png");
+background-size: contain;
+background-repeat:no-repeat;
+height: 3rem;
+width: 3rem;
+position: absolute;
+right: 1rem;
+bottom: .35rem;
+z-index: 10000;
+}
+
+#sect3-back, #sect5-back, #sect6-back,
+#sect10-back, #sect11-back, #sect13-back, #sect16-back, #sect21-back {
+background-image: url("assets/left_arrow_black.png");
+background-size: contain;
+background-repeat:no-repeat;
+height: 3rem;
+width: 3rem;
+position: absolute;
+left: 1rem;
+bottom: .35rem;
+z-index: 10000;
+}
+
+#sect1-back, #sect2-back, #sect4-back, #sect5-1-back, #sect7-back, #sect8-back, #sect9-back, #sect12-back, #sect14-back, #sect15-back,
+#sect17-back, #sect18-back, #sect19-back, #sect20-back, #sect22-back {
+background-image: url("assets/left_arrow.png");
+background-size: contain;
+background-repeat:no-repeat;
+height: 3rem;
+width: 3rem;
 position: absolute;
 left: 1rem;
 bottom: .35rem;
@@ -287,7 +315,7 @@ background-size: contain;
 
 .sect-5 .bottom {
 position: absolute;
-top: 40%;
+top: 50%;
 left: 5%;
 z-index: 1;
 height: 18rem;
@@ -298,10 +326,18 @@ background-size: contain;
 
 .sect-5 .text {
 position: absolute;
-top:60%;
+top:40%;
 z-index: 10;
 margin: 0% 2% 0% 2%;
 }
+
+.sect-5-1 {
+background-image: url("assets/19-slide-recording.png");
+background-size: cover;
+background-position: center;
+}
+
+
 
 .sect-6 img {
 margin-top: 50%;
@@ -334,17 +370,17 @@ background-position: center;
 background-size: cover;
 }
 
-.sect-2, .sect-9, .sect-12, .sect-15, .sect-17, .sect-18, .sect-20 {
+.sect-2, .sect-9, .sect-12, .sect-15, .sect-17, .sect-18, .sect-20, .sect-22 {
 background-color: #000;
 }
 
-.sect-10 .text, .sect-14 .text {
+.sect-10 .text, .sect-14 .text, .sect-19 .text {
 position: absolute;
 top: 20%;
 z-index: 1000;
 }
 
-.sect-10 video, .sect-14 video{
+.sect-10 video, .sect-14 video, .sect-19 video{
 position: fixed;
 right: 0;
 bottom: 0;
@@ -398,7 +434,7 @@ position: relative;
 top: -10rem;
 }
 
-.sect-17 .text, .sect-20 .text {
+.sect-17 .text, .sect-20 .text, .sect-22 .text  {
 position: relative;
 top: 20%;
 }
@@ -424,25 +460,12 @@ background-size: cover;
 background-position: 40%;
 }
 
-.sect-19 .text {
-position: relative;
-top: -13rem;
-z-index: 1000;
-}
-
-.sect-19 video {
-width: 18rem;
-height: 18rem;
-margin: 10rem auto;
-z-index: 1;
-}
-
 .sect-21 {
 background-image: url("assets/experiment.png");
 background-size: contain;
 }
 
-.sect-21 .text {
+.sect-21 .text, .sect-5-1 .text {
 position: relative;
 top: 60%;
 }
