@@ -24,6 +24,30 @@ button {
 	color: #fff;
 }
 
+#title-next, #sect1-next, #sect2-next, #sect3-next, #sect4-next, #sect5-next, #sect6-next, #sect7-next, #sect8-next, #sect9-next,
+#sect10-next, #sect11-next, #sect12-next, #sect13-next, #sect14-next, #sect15-next, #sect16-next, #sect17-next, #sect18-next,
+#sect19-next, #sect20-next, #sect21-next, #sect22-next {
+background-color: #fff;
+height: 35px;
+width: 35px;
+position: absolute;
+right: 1rem;
+bottom: .35rem;
+z-index: 10000;
+}
+
+#sect1-back, #sect2-back, #sect3-back, #sect4-back, #sect5-back, #sect6-back, #sect7-back, #sect8-back, #sect9-back,
+#sect10-back, #sect11-back, #sect12-back, #sect13-back, #sect14-back, #sect15-back, #sect16-back, #sect17-back, #sect18-back,
+#sect19-back, #sect20-back, #sect21-back, #sect22-back {
+background-color: #fff;
+height: 35px;
+width: 35px;
+position: absolute;
+left: 1rem;
+bottom: .35rem;
+z-index: 10000;
+}
+
 .text {
 margin: 0% 2% 0% 2%;
 padding: 3% 3% 3% 3%;
@@ -70,6 +94,11 @@ color: #EDDCC4;
 	background-size: cover;
 }
 
+.sect-1 .text {
+position: relative;
+top: 10%;
+}
+
 .quote1 {
 	font-weight: 500;
 	font-family: 'nyt-cheltenham', georgia, 'times new roman', times, serif;
@@ -84,10 +113,6 @@ color: #EDDCC4;
 	color: #FFFFFF;
 	display: block;
 	position: relative;
-}
-
-.sect-2 {
-	background-color: #000000;
 }
 
 .quote2, quote5, quote6 {
@@ -138,10 +163,15 @@ color: #EDDCC4;
 	text-align: justify;
 }
 
-iframe {
-	margin-top:2.5%;
-	width: 80vw;
+.sect-3 iframe {
+	margin-top: 5rem;
+	width: 100vw;
 	height:50vh;
+}
+
+.sect-3 .text {
+position: relative;
+top: 5%;
 }
 
 .video-page {
@@ -219,6 +249,8 @@ iframe {
 }
 
 .sect-4 .center {
+position: relative;
+top:-10%;
 width: 18rem;
 height: 18rem;
 background-image: url("assets/4-slide-chair.png");
@@ -228,7 +260,7 @@ margin: 10rem auto;
 
 .sect-4 .text {
 position: relative;
-top: -10rem;
+top: -12rem;
 }
 
 .sect-5 .top {
@@ -290,7 +322,7 @@ width: 10rem;
 background-image: url("assets/7-slide-manhattan.jpg");
 }
 
-.sect-7 .text, .sect-9 .text, .sect-12 .text,.sect-16 .text {
+.sect-7 .text, .sect-9 .text, .sect-12 .text,.sect-16 .text, .sect-8 .text {
 position: relative;
 top: 20%;
 }
@@ -302,17 +334,23 @@ background-position: center;
 background-size: cover;
 }
 
-.sect-9, .sect-12, .sect-15, .sect-17 {
+.sect-2, .sect-9, .sect-12, .sect-15, .sect-17, .sect-18, .sect-20 {
 background-color: #000;
 }
 
-.sect-10 .text, {
-position: relative;
-top: 10%;
+.sect-10 .text, .sect-14 .text {
+position: absolute;
+top: 20%;
+z-index: 1000;
 }
 
-.sect-10 iframe {
-width: 100vw;
+.sect-10 video, .sect-14 video{
+position: fixed;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+z-index: 1;
 }
 
 .sect-11 img {
@@ -330,12 +368,24 @@ color: #EDDCC4;
 width: 10rem;
 }
 
+.sect-12 .text {
+position: relative;
+top: 5%;
+}
+
+.sect-15 .text {
+position: relative;
+top: 3%;
+}
+
 .sect-13 {
 background-image: url("assets/13-slide-bottle.jpg");
 background-size: cover;
 }
 
 .sect-13 .center {
+position: relative;
+top:-10%;
 width: 18rem;
 height: 18rem;
 background-image: url("assets/13-slide-center.png");
@@ -348,12 +398,51 @@ position: relative;
 top: -10rem;
 }
 
-.sect-15 .text {
+.sect-17 .text, .sect-20 .text {
 position: relative;
-top: 5%;
+top: 20%;
+}
+
+.sect-18 .text {
+position: relative;
+top: 15%;
 }
 
 .sect-16 {
 background-image: url("assets/16-slide-environments.png");
 background-size: contain;
+}
+
+.sect-18 .text {
+margin-right: 10px;
+text-align: center;
+}
+
+.sect-19 {
+background-image: url("assets/19-slide-recording.png");
+background-size: cover;
+background-position: 40%;
+}
+
+.sect-19 .text {
+position: relative;
+top: -13rem;
+z-index: 1000;
+}
+
+.sect-19 video {
+width: 18rem;
+height: 18rem;
+margin: 10rem auto;
+z-index: 1;
+}
+
+.sect-21 {
+background-image: url("assets/experiment.png");
+background-size: contain;
+}
+
+.sect-21 .text {
+position: relative;
+top: 60%;
 }
