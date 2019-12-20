@@ -33,13 +33,16 @@ section.visible {
   visibility:visible;
 }
 
-.background1, .background54, .background59, .background60, .background61 {
+.background1, .background54, .background59, .background60, .background61, .background2 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height:100vh;
+  width:100vw;
 }
 
 /*this is just a quote!!!!!!*/
+
 .quote1, .quote50, .quote54, .quote59, .quote60, .quote61, .quote62, .quote65, .quote68, .quote69, quote72 {
     font-weight: 500;
     font-family: 'nyt-cheltenham', georgia, 'times new roman', times, serif;
@@ -57,6 +60,7 @@ section.visible {
 }
 
 /*this is the background for blocks of text that are just black*/
+
 .background2, .background51, .background52, .background58, .background63, .background64, .background67 {
     background-color: #000000;
 }
@@ -67,8 +71,7 @@ section.visible {
     letter-spacing: 0.01em;
     font-size: 20px;
     line-height: 30px;
-    max-width: 660px;
-    width: 100%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     font-style: normal;
@@ -76,9 +79,15 @@ section.visible {
     color: #fff;
     font-family: 'nyt-cheltenham-sh', 'nyt-cheltenham', georgia, 'times new roman', times, serif;
     font-weight: 100;
-    text-align: justify;
+    text-align: justify; 
 }
 
+.background1 {
+    background-image: url("assets/ocean.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 iframe {
     margin-top:2.5%;
     width: 80vw;
