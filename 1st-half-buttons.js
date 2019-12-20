@@ -411,22 +411,12 @@ $(document).ready(function () {
 
     $('#sect40-next').click(function () {
         $(".sect-40").removeClass("visible");
-        $(".sect-41").addClass("visible");
-    });
-
-    $('#sect41-back').click(function () {
-        $(".sect-41").removeClass("visible");
-        $(".sect-40").addClass("visible");
-    });
-
-    $('#sect41-next').click(function () {
-        $(".sect-41").removeClass("visible");
         $(".sect-42").addClass("visible");
     });
 
     $('#sect42-back').click(function () {
         $(".sect-42").removeClass("visible");
-        $(".sect-41").addClass("visible");
+        $(".sect-40").addClass("visible");
     });
 
     $('#sect42-next').click(function () {
@@ -501,53 +491,14 @@ $(document).ready(function () {
 
     $('#sect48-next').click(function () {
         $(".sect-48").removeClass("visible");
-        $(".sect-49").addClass("visible");
-    });
-
-    $('#sect49-back').click(function () {
-        $(".sect-49").removeClass("visible");
-        $(".sect-48").addClass("visible");
-    });
-
-    $('#sect49-next').click(function () {
-        $(".sect-49").removeClass("visible");
-        $(".sect-50").addClass("visible");
-    });
-
-    $('#sect50-back').click(function () {
-        $(".sect-50").removeClass("visible");
-        $(".sect-49").addClass("visible");
-    });
-
-    $('#sect50-next').click(function () {
-        $(".sect-50").removeClass("visible");
-        $(".sect-51").addClass("visible");
-    });
-
-    $('#sect51-back').click(function () {
-        $(".sect-51").removeClass("visible");
-        $(".sect-50").addClass("visible");
-    });
-
-    $('#sect51-next').click(function () {
-        $(".sect-51").removeClass("visible");
-        $(".sect-52").addClass("visible");
-    });
-
-    $('#sect52-back').click(function () {
-        $(".sect-52").removeClass("visible");
-        $(".sect-51").addClass("visible");
-    });
-
-    $('#sect52-next').click(function () {
-        $(".sect-52").removeClass("visible");
         $(".sect-53").addClass("visible");
     });
 
     $('#sect53-back').click(function () {
         $(".sect-53").removeClass("visible");
-        $(".sect-52").addClass("visible");
+        $(".sect-48").addClass("visible");
     });
+
 
     $('#sect53-next').click(function () {
         $(".sect-53").removeClass("visible");

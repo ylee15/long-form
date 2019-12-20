@@ -40,9 +40,11 @@ button {
 #sect38-next,
 #sect39-next,
 #sect44-next,
+#sect47-next,
+#sect48-next,
 #sect54-next,
 #sect43-next,
-#sect53-next{
+#sect53-next {
     background-image: url("assets/right_arrow_black.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -80,6 +82,11 @@ button {
 #sect35-next,
 #sect36-next,
 #sect37-next,
+#sect40-next,
+#sect42-next,
+#sect45-next,
+#sect46-next,
+#sect55-next,
 #sect57-next {
     background-image: url("assets/right_arrow.png");
     background-size: contain;
@@ -108,9 +115,11 @@ button {
 #sect38-back,
 #sect39-back,
 #sect43-back,
+#sect44-back,
+#sect48-back,
 #sect53-back,
-#sect57-back
-{
+#sect54-back,
+#sect57-back {
     background-image: url("assets/left_arrow_black.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -148,6 +157,12 @@ button {
 #sect35-back,
 #sect36-back,
 #sect37-back,
+#sect40-back,
+#sect42-back,
+#sect45-back,
+#sect46-back,
+#sect47-back,
+#sect55-back,
 #sect56-back {
     background-image: url("assets/left_arrow.png");
     background-size: contain;
@@ -164,7 +179,7 @@ button {
     margin: 0% 2% 0% 2%;
     padding: 3% 3% 3% 3%;
     font-family: Sudbury Book;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 20px;
     background-color: #000000;
     color: #fff;
@@ -197,7 +212,17 @@ button {
     color: #EDDCC4;
 }
 
-.sect-1, .sect-36 {
+.sect-46 {
+    background-image: url("assets/46-slide-hush.png");
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sect-1,
+.sect-36 {
     background-image: url("assets/ocean.png");
     margin-left: auto;
     margin-right: auto;
@@ -206,7 +231,7 @@ button {
     background-size: cover;
 }
 
-.sect-1 .text, .sect-36 .text {
+.sect-36 .text {
     position: relative;
     top: 10%;
 }
@@ -214,7 +239,7 @@ button {
 .quote1 {
     font-weight: 500;
     font-family: 'nyt-cheltenham', georgia, 'times new roman', times, serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 22px;
     box-shadow: 10px 6px 0 #000000, -10px -6px 0 #000000, 10px -6px 0 #000000, -10px 6px 0 #000000;
     margin-left: auto;
@@ -227,16 +252,9 @@ button {
     position: relative;
 }
 
-.quote2,
 .quote5,
 .quote6,
-.quote25,
-.quote26,
-.quote30,
-.quote33,
-.quote56,
-.quote35,
-.quote37 {
+.quote56 {
     letter-spacing: 0.01em;
     font-size: 20px;
     line-height: 30px;
@@ -283,23 +301,6 @@ button {
     font-weight: 100;
     text-align: justify;
 }
-
-quote39 {
-    font-weight: 500;
-    font-family: 'nyt-cheltenham-sh', 'nyt-cheltenham', georgia, 'times new roman', times, serif
-    font-size: 20px;
-    line-height: 30px;
-    box-shadow: 10px 6px 0 #000000, -10px -6px 0 #000000, 10px -6px 0 #000000, -10px 6px 0 #000000;
-    margin-left: auto;
-    margin-right: auto;
-    background: #000000;
-    letter-spacing: 0;
-    border-bottom: none;
-    color: #FFFFFF;
-    display: block;
-    position: relative;
-}
-
 .sect-3 iframe {
     margin-top: 5rem;
     width: 100vw;
@@ -346,6 +347,7 @@ quote39 {
     background-size: contain;
     margin: 10rem auto;
 }
+
 .sect-16 .center {
     position: relative;
     top: -10%;
@@ -354,11 +356,6 @@ quote39 {
     background-image: url("assets/16-slide-center.png");
     background-size: contain;
     margin: 10rem auto;
-}
-
-.sect-4 .text, {
-    position: relative;
-    top: -12rem;
 }
 
 .sect-5 .top {
@@ -428,6 +425,7 @@ quote39 {
 .sect-6 img,
 .sect-11 img,
 .sect-34 img,
+.sect-44 img,
 .sect-54 img {
     margin-top: 20%;
     width: 100vw;
@@ -455,24 +453,46 @@ quote39 {
     background-size: cover;
 }
 
+.sect-1 .text,
+.sect-2 .text,
 .sect-7 .text,
 .sect-9 .text,
 .sect-12 .text,
+.sect-15 .text,
 .sect-8 .text,
-.sect-23 .text {
+.sect-21 .text,
+.sect-23 .text,
+.sect-25 .text,
+.sect-26 .text,
+.sect-30 .text,
+.sect-32 .text,
+.sect-33 .text,
+.sect-35 .text,
+.sect-36 .text,
+.sect-37 .text,
+.sect-40 .text,
+.sect-45 .text,
+.sect-46 .text,
+.sect-55 .text
+{
     position: relative;
     top: 20%;
 }
 
-.sect-16 .text {
+a {
+    color: #05E9FF;
+}
+.sect-4 .text
+.sect-16 .text,
+.sect-38 .text,
+.sect-47 .text,
+.sect-48 .text {
     position: relative;
     top: -22%;
 }
 
 .sect-29 .text,
-.sect-31 .text,
-.sect-38 .text
-{
+.sect-31 .text {
     position: relative;
     top: 0%;
 }
@@ -505,6 +525,10 @@ quote39 {
 .sect-33,
 .sect-35,
 .sect-37,
+.sect-40,
+.sect-45,
+.sect-47,
+.sect-55,
 .sect-56 {
     background-color: #000;
 }
@@ -512,10 +536,11 @@ quote39 {
 .sect-10 .text,
 .sect-14 .text,
 .sect-19 .text,
-.sect-27 .text, 
-.sect-58 .text{
+.sect-27 .text,
+.sect-42 .text,
+.sect-56 .text {
     position: relative;
-    top: 30%;
+    top: 10%;
     z-index: 1000;
 }
 
@@ -523,8 +548,8 @@ quote39 {
 .sect-14 video,
 .sect-19 video,
 .sect-27 video,
-.sect-57 video
-{
+.sect-42 video,
+.sect-56 video {
     position: fixed;
     right: 0;
     bottom: 0;
@@ -534,8 +559,7 @@ quote39 {
 }
 
 .sect-29 video,
-.sect-31 video 
-{
+.sect-31 video {
     position: relative;
     right: 0;
     bottom: 0;
@@ -543,14 +567,46 @@ quote39 {
     height: 50%;
     z-index: 1;
 }
-.sect-38 img {
-    background-image: url(assets/38-slide-news.png)
+
+.sect-38 .center {
     position: relative;
-    right: 0;
-    bottom: 0;
-    width: 50%;
-    height: 50%;
-    z-index: 10;
+    top: -10%;
+    width: 63rem;
+    height: 17rem;
+    background-image: url("assets/38-slide-news.png");
+    background-size: contain;
+    margin: 10rem auto;
+}
+
+.sect-38 {
+    background-image: url("assets/38-slide-nature.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sect-47 .center {
+    position: relative;
+    top: -10%;
+    width: 18rem;
+    height: 17rem;
+    background-image: url("assets/47-slide-twitter.png");
+    background-size: contain;
+    margin: 10rem auto;
+}
+
+.sect-48 .center {
+    position: relative;
+    top: -10%;
+    width: 18rem;
+    height: 10rem;
+    background-image: url("assets/48-slide-reviews.png");
+    background-size: contain;
+    margin: 10rem auto;
+}
+
+.video-container {
+    top: 100px;
 }
 
 .sect-10 iframe,
@@ -562,16 +618,6 @@ quote39 {
     z-index: 1000;
     width: 100vw;
     height: 80px;
-}
-
-.sect-12 .text {
-    position: relative;
-    top: 5%;
-}
-
-.sect-15 .text {
-    position: relative;
-    top: 3%;
 }
 
 .sect-13 {
@@ -625,7 +671,7 @@ quote39 {
 }
 
 .sect-18 .text {
-    margin-right: 10px;
+    margin-right: 22px;
     text-align: center;
 }
 
@@ -640,37 +686,34 @@ quote39 {
     background-size: contain;
 }
 
-.sect-24 {
-    background-image: url("assets/24-slide-listening.png");
-    background-size: cover;
-}
-
-.sect-28 {
-    background-image: url("assets/28-slide-advertisement.png");
-    background-size: cover;
-}
-
 .sect-43 {
     background-image: url("assets/43-slide-environments-albums.png");
     background-size: cover;
 }
 
-.sect-53 {
-    background-image: url("assets/53-slide-office.png");
-    background-size: cover;
-}
-
-
-
-.sect-21 .text,
 .sect-5-1 .text,
-.sect-24 .text,
-.sect-28 .text,
-.sect-32 .text,
-.sect-43 .text,
-.sect-53 .text {
+.sect-43 .text
+{
     position: relative;
     top: 60%;
+}
+
+.sect-24 .text-title,
+.sect-28 .text-title,
+.sect-39 .text-title,
+.sect-43 .text-title,
+.sect-53 .text-title
+{
+    position: relative;
+    margin: 0% 2% 0% 2%;
+    padding: 3% 3% 3% 3%;
+    font-family: 'nyt-cheltenham', georgia, 'times new roman', times;
+    font-size: 22px;
+    line-height: 20px;
+    background-color: #EDDCC4;
+    color: #000000;
+    text-align: center;
+
 }
 
 @media only screen and (min-width:768px) {
@@ -694,7 +737,7 @@ quote39 {
         text-align: center;
     }
 
-    .sect-5 .text {}
+
 
     .sect-6 img,
     .sect-11 img,
