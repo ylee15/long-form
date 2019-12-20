@@ -407,7 +407,7 @@ z-index: 1;
 }
 
 .sect-10 iframe, .sect-19 iframe, .sect-14 iframe {
-position: absolute;
+position: relative;
 z-index: 1000;
 width: 100vw;
 height: 80px;
